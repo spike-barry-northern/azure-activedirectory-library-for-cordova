@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-ms-adal",
-  "version": "0.10.1",
-  "description": "Provides Microsoft Azure Active Directory (ADAL) OAuth client.",
+  "version": "0.10.2",
+  "description": "Provides Microsoft Azure Active Directory (ADAL) OAuth client (spike-global fork)",
   "cordova": {
     "id": "cordova-plugin-ms-adal",
     "platforms": [
