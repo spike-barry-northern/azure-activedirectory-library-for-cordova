@@ -88,18 +88,6 @@
         <hook type="after_plugin_install" src="scripts/configureEntitlementsIos.js" />
         <hook type="before_plugin_uninstall" src="scripts/configureEntitlementsIos.js" />
 
-	<!-- (CB-11854) CODE_SIGN_ENTITLEMENTS for ios@4.3.0 and up -->
-	<!-- (SPIKEGLOBAL) Modified these from config-file, to edit-config merge mode -->
-        <edit-config target="*-Debug.plist" parent="keychain-access-groups" mode="merge">
-            <array>
-                <string>$(AppIdentifierPrefix)com.microsoft.adalcache</string>
-            </array>
-        </edit-config>
-        <edit-config target="*-Release.plist" parent="keychain-access-groups" mode="merge">
-            <array>
-                <string>$(AppIdentifierPrefix)com.microsoft.adalcache</string>
-            </array>
-        </edit-config>
 
         <!--
         Plist sections below are required for brokered authentication support
