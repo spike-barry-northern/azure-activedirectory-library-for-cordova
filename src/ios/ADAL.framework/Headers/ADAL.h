@@ -25,6 +25,7 @@
 
 #if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 #endif
 
 //! Project version number for ADALFramework.
@@ -35,10 +36,9 @@ FOUNDATION_EXPORT const unsigned char ADALFrameworkVersionString[];
 
 #if TARGET_OS_IPHONE
 //iOS:
-typedef UIWebView WebViewType;
+typedef WKWebView WebViewType;
 #else
 //OS X:
-#   include <WebKit/WebKit.h>
 typedef WebView   WebViewType;
 #endif
 
