@@ -1,7 +1,32 @@
 {
-  "name": "cordova-plugin-ms-adal",
-  "version": "0.10.2",
-  "description": "Provides Microsoft Azure Active Directory (ADAL) OAuth client (spike-global fork)",
+  "_from": "git+https://github.com/spike-global/azure-activedirectory-library-for-cordova.git#SDO-25",
+  "_id": "cordova-plugin-ms-adal@0.10.3",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-ms-adal",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/spike-global/azure-activedirectory-library-for-cordova.git#SDO-25",
+    "rawSpec": "https://github.com/spike-global/azure-activedirectory-library-for-cordova.git#SDO-25",
+    "saveSpec": "git+https://github.com/spike-global/azure-activedirectory-library-for-cordova.git#SDO-25",
+    "fetchSpec": "https://github.com/spike-global/azure-activedirectory-library-for-cordova.git",
+    "gitCommittish": "SDO-25"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/spike-global/azure-activedirectory-library-for-cordova.git#64bdb50a52e2fb7cd51bbeded65bd0a012c439f6",
+  "_spec": "https://github.com/spike-global/azure-activedirectory-library-for-cordova.git#SDO-25",
+  "_where": "C:\\spike\\unite-portal-app",
+  "author": {
+    "name": "MSOpenTech"
+  },
+  "bugs": {
+    "url": "https://github.com/AzureAD/azure-activedirectory-library-for-cordova/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-ms-adal",
     "platforms": [
@@ -10,42 +35,41 @@
       "windows"
     ]
   },
+  "deprecated": false,
+  "description": "Provides Microsoft Azure Active Directory (ADAL) OAuth client (spike-global fork)",
   "engines": {
     "cordovaDependencies": {
-      "0.8.0": {
-        "cordova-android": ">=4.1.0",
-        "cordova-windows": ">=4.1.0",
-        "cordova": ">=5.4.0"
-      },
-      "0.8.1": {
-        "cordova-android": ">=4.1.0",
-        "cordova-windows": ">=4.1.0",
-        "cordova": ">=5.4.0"
-      },
-      "0.9.0": {
-        "cordova-android": ">=4.1.0",
-        "cordova-windows": ">=4.1.0",
-        "cordova": ">=5.4.0"
-      },
       "0.10.0": {
+        "cordova": ">=5.4.0",
         "cordova-android": ">=4.1.0",
-        "cordova-windows": ">=4.1.0",
-        "cordova": ">=5.4.0"
+        "cordova-windows": ">=4.1.0"
       },
       "0.10.1": {
+        "cordova": ">=5.4.0",
         "cordova-android": ">=4.1.0",
-        "cordova-windows": ">=4.1.0",
-        "cordova": ">=5.4.0"
+        "cordova-windows": ">=4.1.0"
+      },
+      "0.8.0": {
+        "cordova": ">=5.4.0",
+        "cordova-android": ">=4.1.0",
+        "cordova-windows": ">=4.1.0"
+      },
+      "0.8.1": {
+        "cordova": ">=5.4.0",
+        "cordova-android": ">=4.1.0",
+        "cordova-windows": ">=4.1.0"
+      },
+      "0.9.0": {
+        "cordova": ">=5.4.0",
+        "cordova-android": ">=4.1.0",
+        "cordova-windows": ">=4.1.0"
       },
       "1.0.0": {
         "cordova": ">=100"
       }
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AzureAD/azure-activedirectory-library-for-cordova.git"
-  },
+  "homepage": "https://github.com/AzureAD/azure-activedirectory-library-for-cordova#readme",
   "keywords": [
     "microsoft",
     "azure",
@@ -56,10 +80,11 @@
     "cordova-ios",
     "cordova-windows"
   ],
-  "author": "MSOpenTech",
   "license": "Apache 2.0",
-  "bugs": {
-    "url": "https://github.com/AzureAD/azure-activedirectory-library-for-cordova/issues"
+  "name": "cordova-plugin-ms-adal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzureAD/azure-activedirectory-library-for-cordova.git"
   },
-  "homepage": "https://github.com/AzureAD/azure-activedirectory-library-for-cordova#readme"
+  "version": "0.10.3"
 }
